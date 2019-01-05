@@ -48,3 +48,5 @@ brew install \
   sass/sass/sass
   
 npm install -g sass
+npm install -g gulp-cli
+npm install -g create-react-app
