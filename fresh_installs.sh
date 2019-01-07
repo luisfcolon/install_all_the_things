@@ -22,7 +22,8 @@ brew cask install \
   sublime-text \
   homebrew/cask-versions/java8 \
   vlc \
-  ngrok
+  ngrok \
+  ack
   
 brew install \  
   dos2unix \
