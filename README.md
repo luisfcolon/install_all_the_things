@@ -1,6 +1,6 @@
-# Homebrew Everything
+# Install all the things
 
-Install all the things. Use this bash script to install software using homebrew.
+I use this script to setup new macs.
 
 ```bash
 git clone git@github.com:luisfcolon/homebrew_everything.git
