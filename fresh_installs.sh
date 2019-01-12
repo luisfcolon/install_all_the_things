@@ -20,7 +20,7 @@ brew cask install \
   cyberduck \
   visual-studio-code \
   sublime-text \
-  homebrew/cask-versions/java8 \
+  java8 \
   vlc \
   ngrok
   
