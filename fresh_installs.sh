@@ -22,8 +22,7 @@ brew cask install \
   sublime-text \
   homebrew/cask-versions/java8 \
   vlc \
-  ngrok \
-  ack
+  ngrok
   
 brew install \  
   dos2unix \
@@ -47,7 +46,9 @@ brew install \
   go \
   rbenv \
   yarn \
-  sass/sass/sass
+  sass/sass/sass \
+  gpg \
+  ack
   
 npm install -g sass
 npm install -g gulp-cli
