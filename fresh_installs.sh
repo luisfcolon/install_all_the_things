@@ -48,7 +48,11 @@ brew install \
   yarn \
   sass/sass/sass \
   gpg \
-  ack
+  ack \
+  scala \
+  sbt \
+  flyway \
+  tree
   
 npm install -g sass
 npm install -g gulp-cli
