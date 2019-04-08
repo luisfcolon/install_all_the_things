@@ -52,7 +52,8 @@ brew install \
   scala \
   sbt \
   flyway \
-  tree
+  tree \
+  pipenv
   
 npm install -g sass
 npm install -g gulp-cli
