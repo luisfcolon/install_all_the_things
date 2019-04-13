@@ -53,7 +53,8 @@ brew install \
   sbt \
   flyway \
   tree \
-  pipenv
+  pipenv \
+  tmux
   
 npm install -g sass
 npm install -g gulp-cli
