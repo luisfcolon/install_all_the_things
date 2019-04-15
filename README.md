@@ -7,4 +7,6 @@ git clone git@github.com:luisfcolon/install_all_the_things.git
 cd install_all_the_things
 chmox +x fresh_installs.sh
 ./fresh_installs.sh
+cd ..
+rm -rf install_all_the_things
 ```
