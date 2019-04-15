@@ -16,7 +16,9 @@ if ! command -v brew > /dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-brew install cask
+if ! command brew ls --versions cask > /dev/null; then
+  brew install cask
+fi
 
 brew cask install \
   docker \
@@ -70,18 +72,15 @@ brew install \
   pipenv \
   tmux
 
-
 npm install -g sass
 npm install -g gulp-cli
 npm install -g create-react-app
-
 
 pushd $HOME
 for folder in "${root_folders[@]}"
 do
   if [[ ! -d $folder ]]
   then
-    echo "Creatng directory: $folder"
     mkdir $folder
   fi
 done
