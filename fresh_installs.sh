@@ -28,6 +28,7 @@ declare -a project_folders=(
   "shell"
   "scala"
   "css"
+  "tutorials"
 )
 
 if ! command -v brew > /dev/null; then
