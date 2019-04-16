@@ -12,6 +12,14 @@ declare -a root_folders=(
   "Workspace"
 )
 
+declare -a workspace_folders=(
+  "projects"
+  "sites"
+  "repos"
+  "docs"
+  "playground"
+)
+
 if ! command -v brew > /dev/null; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
@@ -79,12 +87,30 @@ npm install -g create-react-app
 pushd $HOME
 for folder in "${root_folders[@]}"
 do
+  if [[ ! -d $folder ]]; then
+    mkdir $folder
+  fi
+done
+popd $HOME
+
+pushd $HOME/Workspace
+for folder in "${workspace_folders[@]}"
+do
+  if [[ ! -d $folder ]]; then
+    mkdir $folder
+  fi
+done
+popd
+
+pushd $HOME/Workspace/projects
+for folder in "${project_folders[@]}"
+do
   if [[ ! -d $folder ]]
   then
     mkdir $folder
   fi
 done
-popd $HOME
+popd
 
 unset -f pushd
 unset -f popd
