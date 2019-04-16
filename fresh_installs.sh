@@ -89,7 +89,8 @@ brew install \
   flyway \
   tree \
   pipenv \
-  tmux
+  tmux \
+  parallel
 
 npm install -g sass
 npm install -g gulp-cli
