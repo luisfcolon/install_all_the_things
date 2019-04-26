@@ -90,7 +90,8 @@ brew install \
   tree \
   pipenv \
   tmux \
-  parallel
+  parallel \
+  watchman
 
 npm install -g sass
 npm install -g gulp-cli
