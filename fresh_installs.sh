@@ -21,7 +21,6 @@ declare -a workspace_folders=(
 )
 
 declare -a project_folders=(
-  "php"
   "python"
   "ruby"
   "javascript"
