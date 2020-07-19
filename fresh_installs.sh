@@ -58,8 +58,8 @@ brew cask install \
   java8 \
   vlc \
   ngrok
-  
-brew install \  
+
+brew install \
   dos2unix \
   git \
   node \
@@ -90,7 +90,8 @@ brew install \
   tree \
   pipenv \
   tmux \
-  parallel
+  parallel \
+  hub
 
 npm install -g sass
 npm install -g gulp-cli
