@@ -58,8 +58,8 @@ brew cask install \
   java8 \
   vlc \
   ngrok
-  
-brew install \  
+
+brew install \
   dos2unix \
   git \
   node \
@@ -91,6 +91,7 @@ brew install \
   pipenv \
   tmux \
   parallel \
+  hub \
   watchman
 
 npm install -g sass
