@@ -65,6 +65,7 @@ brew install \
   yarn \
   awscli \
   jq \
+  jo \
   docker-machine \
   imagemagick \
   mcrypt \
