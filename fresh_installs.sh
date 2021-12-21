@@ -45,18 +45,20 @@ brew cask install \
   caffeine \
   dropbox \
   firefox \
+  brave-browser \
+  google-chrome \
   slack \
   spotify \
   alfred \
   openoffice \
-  google-chrome \
   macdown \
   cyberduck \
   visual-studio-code \
   sublime-text \
   java8 \
   vlc \
-  ngrok
+  ngrok \
+  1password
 
 brew install \
   dos2unix \
@@ -92,7 +94,9 @@ brew install \
   tmux \
   parallel \
   hub \
-  watchman
+  watchman \
+  gh \
+  tfenv
 
 npm install -g sass
 npm install -g gulp-cli
