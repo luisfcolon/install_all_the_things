@@ -64,7 +64,6 @@ brew install \
   dos2unix \
   git \
   node \
-  yarn \
   awscli \
   jq \
   jo \
